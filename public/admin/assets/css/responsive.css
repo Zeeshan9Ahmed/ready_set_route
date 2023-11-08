@@ -1,0 +1,541 @@
+@media only screen and (max-width:1700px) {
+	.gentableWrap.type-1.col-10 {
+		width: 100%;
+	}	
+}
+@media only screen and (max-width:1700px) {
+	.gentableWrap.type-1.col-10 {
+		width: 100%;
+	}	
+}
+@media only screen and (max-width:1600px) {
+	aside {
+		overflow-y: scroll;
+	}
+	.searchRow .row .col-3 {
+		max-width: 25%;
+	}
+	.toogle-close-btn { 
+		display: flex;
+	}
+	aside {
+		
+	}
+	/*.right-box-wrap {
+		width: 100%;
+	}*/
+	.dashboard-head-right {
+		width: 100%;
+	}
+	.detailBox .iconBox {
+		width: 60px;
+		height: 60px;
+	}
+	.detailBox .iconBox img {
+		max-width: 28px;
+	}
+	.detailBox {
+		max-width: 200px;
+		width: 100%; 
+	}
+	.gentableWrap.col-10, 
+	.detailBody.col-10 {
+		width: 100%;
+	}
+	.gentableWrap {
+		padding: 20px;
+	}
+	.reportsTable {
+		max-width: 100%;
+	}
+	#delay-reports-tab .searchRow .row .col-3, 
+	#travel-reports-tab .searchRow .row .col-3  {
+		max-width: 20%;
+	}
+	.subscriptionWrap.row .col-4 {
+		max-width: 33%!important;
+	}
+	.header-leftwrap .leftInner .sideToggle { 
+		display: block;
+	}
+	.genBtn.type-2 {
+		max-width: 400px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.container.type-2 {
+		padding-left: 24px;
+	}
+}
+@media only screen and (max-width:1450px) {
+	.header-leftwrap {
+		max-width: 100%;
+	}
+	.dashboard-sec .row .col-8 {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.dashboard-sec .row .col-4 {
+		width: 100%;
+	}
+	.detailBody .detailContent .genBtn {
+		max-width: 120px;
+		font-size: 17px;
+	}
+	.detailBody .actionBtns {
+		max-width: 430px;
+	}
+	#teacher-detail-tab .detailBody .actionBtns {
+		max-width: 565px;
+	}
+	.reports-listing .col-4 {
+		width: 33%!important;
+	}
+}
+@media only screen and (max-width:1240px) {
+	.index-sec-1 .col-8, .index-sec-1 .col-4 {
+		width: 100%;
+	}
+	.index-sec-1 .col-4 {
+		padding-top: 40px;
+	}
+}
+@media only screen and (max-width:1160px) {
+	table.dataTable.nowrap th {
+		font-size: 17px;
+	}
+	.order-detail-box .table tbody th, td {
+		font-size: 16px;
+	}
+	.subscriptCard .textBox .title {
+		font-size: 30px;
+	}
+	.subscriptCard .textBox .price {
+		font-size: 40px;
+	}
+	.featureList li {
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+	.subscriptCard {
+		padding: 30px;
+		z-index: 999;
+	}
+	#subscription-tab .genBtn {
+		max-width: 250px;
+	}
+	#subscription-tab .actionBtns {
+		max-width: 535px;
+	}
+	.searchWrap {
+		max-width: 900px;
+	}
+	.search-form .form-group {
+		max-width: 710px;
+	}
+}
+@media only screen and (max-width:1025px) {
+	.profile-image img {
+		max-width: 80px;
+		max-height: 80px;
+		height: 100px;
+	}
+	.side-logo {
+		margin-bottom: 20px;
+	}
+	.dashboard-links {
+		padding-top: 20px;
+	}
+	.header-leftwrap {
+		max-width: 610px;
+		min-width: 610px;
+	}
+	.dashboard-head-right {
+		width: 100%;	
+		border:none; 
+	}
+	.mobile-wrap {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		flex-direction: column;
+		justify-content: center !important;
+		width: 100%;
+		max-width: 320px;
+		height: 100%;
+		background: #fff;
+		z-index: 9999;
+		overflow: auto;
+		transition: all 0.5s ease-in-out;
+	}
+	.mobile-wrap.active {
+		left: 0;
+	}
+	.mobile-toggle {
+		display: none;
+	}
+	.mobile-toggle {
+		font-size: 18px;
+		padding: 6px 14px;
+		max-width: 40px;
+		height: 40px;
+		width: 100%;
+		margin: -68px 10px 10px;
+	}
+	.toggle-button .toggle-btn {
+		display: block;
+	}
+}
+@media only screen and (max-width:1024px) {
+	.dataTables_wrapper {
+		overflow-x: scroll;
+	}
+	table.dataTable.nowrap th {
+		font-size: 18px;
+	}
+	.order-detail-box .table tbody th, td {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width:991px) {
+
+}
+@media only screen and (max-width:910px) {
+	.overview-wrap .overview-boxes {
+		margin-top: 20px;
+	}
+	.statuswrap {
+		padding: 0px 0px 0px 45px;
+	}
+	.header-leftwrap {
+		max-width: 545px;
+		min-width: 545px;
+		padding: 0px 30px 0 70px;
+	}
+	input[type=search]:focus {
+		width:260px !important;
+	}
+	.user-info-box {
+		min-width: 720px;
+		max-width: 720px;
+		width: 100%;
+		margin:0 auto;
+	}
+	.change-pass-wrap p {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.black-head {
+		text-align: center;
+	}
+	.change-pass-wrap {
+		margin: 0 auto;
+		text-align: center;
+		border:none;
+	}
+	.overview-boxes .box {
+		margin: 30px 20px 0 30px;
+	}
+	.lineChartWrap {
+		min-width: 630px;
+		max-width: 630px;
+		min-height: 435px;
+		max-height: 435px;
+		margin: 0 0px 0px 35px;
+	}
+	.box-text1 {
+		color: #797b7d;
+		font-weight: 500;
+		font-size: 16px;
+	}
+	.overview-boxes .box {
+		min-width: 290px;
+		max-width: 290px;
+		min-height: 220px;
+		max-height: 220px;
+		margin: 0 20px;
+	}
+}
+@media only screen and (max-width:767px) {
+	.overview-wrap .overview-boxes {
+		justify-content: center;
+	}
+	.user-info-box {
+		min-width: 620px;
+		max-width: 620px;
+		width: 100%;
+	}
+	.dashboard-head-right {
+		width: 95%;
+		border: none;
+	}
+	.header-leftwrap {
+		max-width: 340px;
+		min-width: 340px;
+		margin: 0 auto;
+	}
+	input[type=search]:focus {
+		margin: 0;
+		width: 210px !important;
+	}
+	.header-leftwrap {
+		max-width: 500px;
+		min-width: 500px;
+		padding: 0px 30px 0 35px;
+	}
+	.overview-boxes .box {
+		min-width: 352px;
+		max-width: 352px;
+		margin: 20px 20px 20px;
+	}
+	.lineChartWrap {
+		min-width: 355px;
+		max-width: 355px;
+		min-height: 260px;
+		max-height: 260px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width:576px) {
+	.notification-dropdown-wrap {
+		right: -110px;
+	}
+	.dataTable.nowrap td {
+		font-size: 14px !important;
+	}
+	.mobile-wrap {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		flex-direction: column;
+		justify-content: center !important;
+		width: 100%;
+		max-width: 403px;
+		height: 100%;
+		background:none;
+		z-index: 9999;
+		overflow: auto;
+		transition: all 0.5s ease-in-out;
+	}
+	.user-info-box {
+		min-width: 530px;
+		max-width: 530px;
+		width: 100%;
+		background: none;
+	}
+	.header-leftwrap {
+		max-width: 500px;
+		min-width: 500px;
+		padding: 0px 30px 0 70px;
+	}
+	.header-leftwrap {
+		max-width: 330px;
+		min-width: 330px;
+		padding: 0px 30px 0 70px;
+	}
+	input[type=search]:focus {
+		margin: 0;
+		width: 125px !important;
+	}
+	.black-btn {
+		font-size: 13px;
+	}
+	.payment-text label {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width:575px) {
+	.notification-dropdown-wrap {
+		right: -218px;
+	}
+	.overview-boxes .box {
+		min-width: 290px;
+		max-width: 290px;
+	}
+	.status-box {
+		min-width: 290px;
+		max-width: 290px;
+		padding: 25px 36px;
+		border-radius: 12px;
+	}
+	.change-pass-wrap {
+		min-width: 330px;
+		max-width: 330px;
+		width: 100%;
+	}
+	.lineChartWrap {
+		min-width: 300px;
+		max-width: 300px;
+		min-height: 230px;
+		max-height: 230px;
+		margin: 0 auto;
+	}
+	.header-leftwrap {
+		max-width: 140px;
+		min-width: 140px;
+		padding: 0px 30px 0 70px;
+	}
+	.header-leftwrap {
+		justify-content: flex-end;
+	}
+	.head-image {
+		display: none;
+	}
+	.mobile-toggle {
+		margin: -44px 10px 10px;
+	}
+	.head-right-box ul li {
+
+		min-width:90px;
+		max-width:90px;
+	}
+	.search-form {
+		display: none;
+	}
+	.black-head {
+		text-align: center;
+	}
+	.user-info-box {
+		margin: 0;
+		padding: 0;
+	}
+	.pass-btn-box {
+		text-align: center;
+	}
+	.change-pass-wrap p {
+		text-align: center;
+	}
+	.user-info-box {
+		min-width: 350px;
+		max-width: 350px;
+		width: 100%;
+		background: none;
+		margin: 0 auto;
+	}
+	.info-box {
+		padding: 0;
+	}
+	.details p {
+		font-size: 14px;
+	}
+	.payment-btn {
+		margin: 20px 0 0 0;
+	}
+	.payment-box {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.payment-text {
+		text-align: center;
+	}
+	.alert-box {
+		max-width: 350px;
+		min-width: 350px;
+		width: 100%;
+		text-align: center;
+		margin: 15px auto 0;
+	}
+}
+@media only screen and (max-width:385px) {
+	table.dataTable.nowrap th, table.dataTable.nowrap td {
+		padding: 15px 20px 15px 0;
+		font-size: 13px;
+	}
+	.voucher-input input {
+		padding: 15px 0px 15px 20px;
+	}
+	.close-btn {
+		top: 5px;
+	}
+	.popup-head h6 {
+		font-size: 16px;
+	}
+	.side-logo a img {
+		max-width: 100px;
+		max-height: 120px;
+		min-width: 100px;
+		min-height: 120px;
+	}
+	.header-leftwrap {
+		max-width: 170px;
+		min-width: 170px;
+	}
+	.lineChartWrap {
+		min-width: 250px;
+		max-width: 250px;
+		min-height: 190px;
+		max-height: 190px;
+	}
+	.overview-boxes .box {
+		min-width: 250px;
+		max-width: 250px;
+	}
+	.status-box {
+		min-width: 245px;
+		max-width: 245px;
+		padding: 25px 36px;
+		border-radius: 12px;
+	}
+	.alert-box {
+		max-width: 270px;
+		min-width: 270px;
+		width: 100%;
+		margin: 0;
+	}
+	.black-head {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	.user-info-box {
+		min-width: 270px;
+		max-width: 270px;
+		width: 100%;
+	}
+	.details p {
+		font-size: 11px;
+	}
+	.edit-btn a {
+		padding: 8px 30px;
+	}
+	.change-pass-wrap p {
+		font-size: 13px;
+		max-width: 510px;
+	}
+	.change-pass-wrap {
+		min-width: 300px;
+		max-width: 300px;
+		width: 100%;
+	}
+	.black-head {
+		font-size: 15px;
+		text-align: initial;
+	}
+	.pass-btn-box {
+		text-align: initial;
+	}
+	.change-pass-wrap p {
+		font-size: 13px;
+		min-width: 270px;
+		max-width: 270px;
+		text-align: initial;
+		margin: 0;
+	}
+	.payment-box {
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.payment-text {
+		text-align: initial;
+	}
+	.box-text2 {
+		font-size: 40px;
+	}
+	.box-text1 {
+		font-size: 15px;
+	}
+	.box-status {
+		font-size: 16px;
+	}	
+}

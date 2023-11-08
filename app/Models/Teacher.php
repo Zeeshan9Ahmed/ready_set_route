@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+
+class Teacher extends Authenticatable
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'school_id',
+        'name',
+        'phone',
+        'email',
+        'password',
+        'image'
+    ];
+    public function sender()
+    {
+        return $this->morphMany(SendInvitation::class, 'sender');
+    }
+}
